@@ -1,11 +1,14 @@
 {
-  "name": "temp-task-app",
-  "module": "index.js",
-  "type": "module",
-  "devDependencies": {
-    "bun-types": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  }
+	"name": "temp-task-app",
+	"module": "index.js",
+	"type": "module",
+	"devDependencies": {
+		"bun-types": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"scripts": {
+		"start": "nodemon index.js"
+	}
 }
